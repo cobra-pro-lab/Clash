@@ -10,7 +10,7 @@ config config_subscribe
 	option rule_provider 'false'
 	option udp 'true'
 	option address 'https://45.88.192.25:21886/api/v1/client/subscribe?token=604220e9aae7d5a50fd5da9fed3484e9'
-	option custom_template_url 'https://ghp.ci/raw.githubusercontent.com/liandu2024/clash/refs/heads/main/Clash-LIAN.ini'
+	option custom_template_url 'https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/Clash-LIAN.ini'
 	list ex_keyword '官网'
 	list ex_keyword '失败'
 	list ex_keyword '剩余'
@@ -381,6 +381,6 @@ config config_subscribe
 	list ex_keyword '群组'
 	list ex_keyword '频道'
 	option enabled '1'
-	option custom_template_url 'https://ghp.ci/raw.githubusercontent.com/cobra-pro-lab/Clash/refs/heads/main/CobraClash.ini'
+	option custom_template_url 'https://raw.githubusercontent.com/cobra-pro-lab/Clash/refs/heads/main/CobraClash.ini'
 	option emoji 'true'
 
